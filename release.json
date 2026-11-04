@@ -1,17 +1,25 @@
 {
   "schemaVersion": 1,
-  "publicationState": "preview",
+  "publicationState": "published",
+  "channel": "prerelease",
+  "websiteUrl": "https://shittim-ark-downloads.pages.dev/",
   "versionName": "0.16.1",
   "versionCode": 71,
-  "buildId": "slider-fix",
-  "bytes": 350075630,
-  "sha256": "46f5badbbaca68bfc692c2be3866c9d7e67e9c857e81d2ddfa18555f262263c7",
-  "downloadUrl": null,
-  "sourceUrl": null,
+  "buildId": "protected-candidate-20261104",
+  "bytes": 321858165,
+  "sha256": "3f09622052e908f9b531c2f4f2a17563e526ac56dbbb6440b424908fb5b79a02",
+  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/0.16.1-protected-20261104/ShittimArk-0.16.1-protected-candidate.apk",
+  "sourceUrl": "https://github.com/Reishisomu/ShittimArk-Public",
   "mirrors": [],
-  "resources": [],
+  "resources": [
+    {
+      "name": "下载 5 套兼容桌宠资源包（77.2 MiB）",
+      "url": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/0.16.1-protected-20261104/ShittimArk-desktop-pets-remaining-5.petpack",
+      "sha256": "dad38b6b809612fd61e21b3c3e8cfc85966be2f6fe2e10de9a52dbc2736e12fe"
+    }
+  ],
   "notes": [
-    "修复滑条触摸位置偏移。",
-    "已完成相关检查；其他机型效果仍需验证。"
+    "加入代码混淆，关闭调试入口，移除原生库调试符号。",
+    "保留滑条补修及记忆大厅资源；当前为公开测试候选，尚未完成 ARM64 真机回归。"
   ]
 }

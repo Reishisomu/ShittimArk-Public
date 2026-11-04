@@ -13,7 +13,11 @@ async function loadRelease() {
   const ready = release.publicationState === 'published' && download && /^[0-9a-f]{64}$/.test(release.sha256);
   if (ready) {
     const link = document.querySelector('#download-apk'); link.href = download; link.removeAttribute('aria-disabled'); link.rel = 'noopener';
-    document.querySelector('#publication-note').textContent = `完整安装包 · ${release.versionName}`;
+    const candidate = release.channel === 'prerelease';
+    link.textContent = candidate ? '下载测试 APK' : '下载 APK';
+    document.querySelector('#publication-note').textContent = candidate
+      ? '公开测试候选 · 尚未完成 ARM64 真机验证'
+      : `完整安装包 · ${release.versionName}`;
     for (const mirror of release.mirrors || []) {
       const url = httpsUrl(mirror.url);
       if (!url || mirror.sha256 !== release.sha256) continue;
