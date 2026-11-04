@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Shittim Ark Android 桌面应用下载、更新说明与桌宠资源。">
+  <meta name="referrer" content="no-referrer">
+  <title>Shittim Ark · 下载</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="wrap header">
+    <a class="brand" href="#download"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 4 37 35H3Z"/></svg>Shittim Ark</a>
+    <nav aria-label="主导航"><a href="#download">下载</a><a href="#resources">资源包</a><a href="#changes">更新说明</a></nav>
+  </header>
+  <main>
+    <section id="download" class="wrap hero">
+      <div>
+        <h1>把喜欢的世界，<br>留在桌面。</h1>
+        <h2>Shittim Ark · Android 桌面与动态陪伴</h2>
+        <p class="intro">桌面、记忆大厅、桌宠与个性化，在一个应用里。</p>
+        <div class="actions"><a id="download-apk" class="button primary" aria-disabled="true">下载 APK</a><a class="button secondary" href="#changes">查看更新说明</a></div>
+        <div id="download-mirrors" class="mirrors" aria-label="其他下载线路"></div>
+        <p id="publication-note" class="notice" role="status">本地预览 · 公共下载地址尚未配置</p>
+      </div>
+      <aside class="version" aria-label="版本与文件信息">
+        <p id="version-number" class="version-number">0.16.1</p>
+        <p>Android 8.0+</p><p id="file-size">ARM64</p>
+        <button id="copy-hash" class="text-button" type="button" disabled>复制 SHA-256</button>
+        <p id="hash-feedback" class="feedback" role="status" aria-live="polite"></p>
+      </aside>
+    </section>
+    <div class="wrap"><hr></div>
+    <div class="resource-band">
+      <div class="wrap">
+        <section id="resources">
+          <h2>安装与资源</h2>
+          <div class="steps">
+            <article><h3>01 安装应用</h3><p>下载完整安装包，按系统提示安装。</p></article>
+            <article><h3>02 导入桌宠</h3><p>桌宠资源独立获取，按需导入。</p><div id="resource-links"></div></article>
+            <article><h3>03 保留你的设置</h3><p>升级采用覆盖安装，无需先卸载。</p></article>
+          </div>
+        </section>
+        <section id="changes" class="changes"><h2>本次更新</h2><ul id="change-list"><li>正在读取版本说明。</li></ul></section>
+      </div>
+    </div>
+  </main>
+  <footer class="wrap footer"><span>Shittim Ark</span><a id="source-link" aria-disabled="true">非核心模块源码（待发布）</a></footer>
+</body>
+</html>

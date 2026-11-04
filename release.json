@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "publicationState": "preview",
+  "versionName": "0.16.1",
+  "versionCode": 71,
+  "buildId": "slider-fix",
+  "bytes": 350075630,
+  "sha256": "46f5badbbaca68bfc692c2be3866c9d7e67e9c857e81d2ddfa18555f262263c7",
+  "downloadUrl": null,
+  "sourceUrl": null,
+  "mirrors": [],
+  "resources": [],
+  "notes": [
+    "修复滑条触摸位置偏移。",
+    "已完成相关检查；其他机型效果仍需验证。"
+  ]
+}
