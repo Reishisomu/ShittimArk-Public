@@ -16,7 +16,7 @@ async function loadRelease() {
     const candidate = release.channel === 'prerelease';
     link.textContent = candidate ? '下载测试 APK' : '下载 APK';
     document.querySelector('#publication-note').textContent = candidate
-      ? '公开测试候选 · 尚未完成 ARM64 真机验证'
+      ? '公开测试候选 · 已完成单机基础回测，完整兼容性待验证'
       : `完整安装包 · ${release.versionName}`;
     for (const mirror of release.mirrors || []) {
       const url = httpsUrl(mirror.url);
