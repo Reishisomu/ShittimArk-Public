@@ -3,12 +3,12 @@
   "publicationState": "published",
   "channel": "prerelease",
   "websiteUrl": "https://dreamheart-atelier.pages.dev/",
-  "versionName": "0.19.0",
-  "versionCode": 81,
-  "buildId": "0190-v11-20261108",
+  "versionName": "0.19.0.1",
+  "versionCode": 82,
+  "buildId": "019001-20261109",
   "bytes": 331318872,
-  "sha256": "054b9bbcb07e3d141e6b3f671c316125e34533dfed60f68fe76391d9faf5e3d6",
-  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/0.19.0/ShittimArk-0.19.0.apk",
+  "sha256": "7c9d101413f9c334f6d9f640e7ff59455370547ed8d23dbedfba9aa0b2f74e9a",
+  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/0.19.0.1/ShittimArk-0.19.0.1.apk",
   "sourceUrl": "https://github.com/Reishisomu/ShittimArk-Public",
   "mirrors": [],
   "resources": [
@@ -19,12 +19,11 @@
     }
   ],
   "notes": [
-    "设置分类与弹窗布局重做，保留经典布局；共同预览支持双指构图、撤销和取消还原。",
-    "按键音采用用户剪辑，默认关闭，支持单次播放、导入、随机及独立音量。",
-    "补齐29个原提起动作和1个原互动动作，修正道具切换拉裂及实际安装来源的动作显示。",
-    "部分原资源缺失动作和兼容着色效果仍有明确限制，完整原作视觉一致性未获全面验证。"
+    "弹窗布局默认改为经典布局，恢复设置布局默认值时也回到经典布局。",
+    "保留用户已经保存的布局选择，弧形工作台和经典布局仍可切换。",
+    "版本更新为0.19.0.1，内部版本码82，沿用原签名以支持覆盖安装。"
   ],
-  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/0.19.0",
+  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/0.19.0.1",
   "previewExpiresAt": "2026-11-25T00:00:00+08:00",
   "notices": {
     "zh-CN": "预览期限：北京时间 2026-11-25 00:00；之后需更新至 1.0.0 或更高版本。",
