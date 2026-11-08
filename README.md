@@ -1,13 +1,17 @@
 # Dreamheart Atelier · Shittim Ark
 
-[下载网站](https://dreamheart-atelier.pages.dev/) · [APK 与资源包](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/0.16.1-protected-20261104)
+[下载网站](https://dreamheart-atelier.pages.dev/) · [0.19.0 安装包与发布说明](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/0.19.0) · [历史版本与资源](https://github.com/Reishisomu/ShittimArk-Public/releases)
 
-以阿洛娜为主视觉的独立同人下载站，参考碧蓝档案官网的蓝白校园视觉。不是官方应用。主视觉为 AI 绘制同人插画，阿洛娜角色权利属于 NEXON Games。
+当前下载：**0.19.0 公开预览版**，Android 8.0+，ARM64，约316.0 MiB。保留原签名，可覆盖安装；请保留本机资源与设置。
 
-支持简体中文、繁體中文、English、日本語、한국어；右上角切换并记住选择。此仓库仅公开下载网页等非核心模块，不包含完整 Android 工程、核心角色代码、密钥、用户数据或私有历史。完整源码在独立私有仓库维护。
+**预览于北京时间2026年11月25日00:00停用，之后需要更新至1.0.0或更高版本。到期保留本机数据。**
 
-网页部署于 Cloudflare Pages；APK 通过 GitHub Releases 下载，不经过开发电脑。当前为 0.16.1 公开保护测试候选，已完成单机有限基础回测，完整兼容性尚未验收。
+本版重做设置分类与可选弹窗布局，改进共同预览、图标装饰与按键音，补齐30个原动作资源并修复道具切换拉裂。部分原资源缺失动作、兼容着色效果及系统功能仍有限制，详见发布说明。
 
-网站文件：index.html、style.css、app.js、release.json、_headers、assets/arona-hero-clean.webp、assets/atelier-mark.svg。角色素材及 APK 不因本仓库公开而成为开源内容。
+SHA-256：`054b9bbcb07e3d141e6b3f671c316125e34533dfed60f68fe76391d9faf5e3d6`
 
-旧网址会自动跳转到新网址。当前主视觉保留原构图，完成降噪与线条清理，以无损WebP提供（1536×1024）；未更换成另一张角色立绘。
+本仓库只公开下载网页等非核心模块，不包含完整Android工程、核心代码、私钥、混淆映射、用户数据或私有历史。APK作为Release附件提供，完整源码独立私有维护。
+
+网站保留阿洛娜同人主视觉及简体中文、繁體中文、English、日本語、한국어切换。阿洛娜角色权利属于NEXON Games，本站主视觉为AI绘制同人插画。本项目为独立非官方同人项目。
+
+网页使用Cloudflare Pages，APK使用GitHub Releases，访客下载不经过开发电脑。原有资源目录和51份桌宠模型镜像继续保留，资源文件和APK不因本仓库公开而成为开源内容。

@@ -16,7 +16,9 @@ function httpsUrl(value) {
   try {const u = new URL(value); return u.protocol === 'https:' && !u.username && !u.password ? u.href : null;} catch {return null;}
 }
 function updateStatus() {
-  document.querySelector('#publication-note').textContent = text(releaseState === 'ready' ? (release.channel === 'prerelease' ? 'candidate' : 'stable') : releaseState === 'failed' ? 'unavailable' : 'loading');
+  const status = text(releaseState === 'ready' ? (release.channel === 'prerelease' ? 'candidate' : 'stable') : releaseState === 'failed' ? 'unavailable' : 'loading');
+  const notice = releaseState === 'ready' && typeof release.notices?.[language] === 'string' ? release.notices[language] : '';
+  document.querySelector('#publication-note').textContent = status + (notice ? ' · ' + notice : '');
   const feedback = document.querySelector('#hash-feedback');
   feedback.textContent = feedbackState === 'copied' ? text('copied') : feedbackState === 'failed' && release ? text('copyFailed') + release.sha256 : '';
 }

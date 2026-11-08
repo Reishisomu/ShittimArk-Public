@@ -3,12 +3,12 @@
   "publicationState": "published",
   "channel": "prerelease",
   "websiteUrl": "https://dreamheart-atelier.pages.dev/",
-  "versionName": "0.16.1",
-  "versionCode": 71,
-  "buildId": "protected-candidate-20261104",
-  "bytes": 321858165,
-  "sha256": "3f09622052e908f9b531c2f4f2a17563e526ac56dbbb6440b424908fb5b79a02",
-  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/0.16.1-protected-20261104/ShittimArk-0.16.1-protected-candidate.apk",
+  "versionName": "0.19.0",
+  "versionCode": 81,
+  "buildId": "0190-v11-20261108",
+  "bytes": 331318872,
+  "sha256": "054b9bbcb07e3d141e6b3f671c316125e34533dfed60f68fe76391d9faf5e3d6",
+  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/0.19.0/ShittimArk-0.19.0.apk",
   "sourceUrl": "https://github.com/Reishisomu/ShittimArk-Public",
   "mirrors": [],
   "resources": [
@@ -19,7 +19,18 @@
     }
   ],
   "notes": [
-    "加入代码混淆，关闭调试入口，移除原生库调试符号。",
-    "保留滑条补修及记忆大厅资源；已完成一台 ARM64 手机的基础回测，完整兼容性仍待验证。"
-  ]
+    "设置分类与弹窗布局重做，保留经典布局；共同预览支持双指构图、撤销和取消还原。",
+    "按键音采用用户剪辑，默认关闭，支持单次播放、导入、随机及独立音量。",
+    "补齐29个原提起动作和1个原互动动作，修正道具切换拉裂及实际安装来源的动作显示。",
+    "部分原资源缺失动作和兼容着色效果仍有明确限制，完整原作视觉一致性未获全面验证。"
+  ],
+  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/0.19.0",
+  "previewExpiresAt": "2026-11-25T00:00:00+08:00",
+  "notices": {
+    "zh-CN": "预览期限：北京时间 2026-11-25 00:00；之后需更新至 1.0.0 或更高版本。",
+    "zh-TW": "預覽期限：北京時間 2026-11-25 00:00；之後需更新至 1.0.0 或更新版本。",
+    "en": "Preview ends 25 Nov 2026, 00:00 China time (UTC+8). Update to 1.0.0 or later to continue.",
+    "ja": "プレビュー期限：2026年11月25日00:00（中国時間・UTC+8）。以降は1.0.0以上への更新が必要です。",
+    "ko": "미리보기 종료: 2026년 11월 25일 00:00(중국 시간, UTC+8). 이후에는 1.0.0 이상으로 업데이트해야 합니다."
+  }
 }
