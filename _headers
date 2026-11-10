@@ -17,3 +17,5 @@
 
 /pet-models/*
   Cache-Control: public, max-age=31536000, immutable, no-transform
+/release-signed.json
+  Cache-Control: no-store

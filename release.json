@@ -3,12 +3,12 @@
   "publicationState": "published",
   "channel": "prerelease",
   "websiteUrl": "https://dreamheart-atelier.pages.dev/",
-  "versionName": "0.19.0.1",
-  "versionCode": 82,
-  "buildId": "019001-20261109",
-  "bytes": 331318872,
-  "sha256": "7c9d101413f9c334f6d9f640e7ff59455370547ed8d23dbedfba9aa0b2f74e9a",
-  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/0.19.0.1/ShittimArk-0.19.0.1.apk",
+  "versionName": "0.20.0",
+  "versionCode": 83,
+  "buildId": "0200-20261111",
+  "bytes": 331417426,
+  "sha256": "6f499cf610dea2a8f0173f46dae8730833eb94b904a05924a1a3e374683d234e",
+  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/0.20.0/ShittimArk-0.20.0.apk",
   "sourceUrl": "https://github.com/Reishisomu/ShittimArk-Public",
   "mirrors": [],
   "resources": [
@@ -19,17 +19,17 @@
     }
   ],
   "notes": [
-    "弹窗布局默认改为经典布局，恢复设置布局默认值时也回到经典布局。",
-    "保留用户已经保存的布局选择，弧形工作台和经典布局仍可切换。",
-    "版本更新为0.19.0.1，内部版本码82，沿用原签名以支持覆盖安装。"
+    "夏莱值班表新增2–5个记忆大厅的陀螺仪光栅切换。",
+    "修正记忆大厅脸部暗块，接入资源、预览、备份和界面改进。",
+    "电脑端306项相关检查通过；无设备，尚未实机验收。"
   ],
-  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/0.19.0.1",
+  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/0.20.0",
   "previewExpiresAt": "2026-11-25T00:00:00+08:00",
   "notices": {
-    "zh-CN": "预览期限：北京时间 2026-11-25 00:00；之后需更新至 1.0.0 或更高版本。",
-    "zh-TW": "預覽期限：北京時間 2026-11-25 00:00；之後需更新至 1.0.0 或更新版本。",
-    "en": "Preview ends 25 Nov 2026, 00:00 China time (UTC+8). Update to 1.0.0 or later to continue.",
-    "ja": "プレビュー期限：2026年11月25日00:00（中国時間・UTC+8）。以降は1.0.0以上への更新が必要です。",
-    "ko": "미리보기 종료: 2026년 11월 25일 00:00(중국 시간, UTC+8). 이후에는 1.0.0 이상으로 업데이트해야 합니다."
+    "zh-CN": "预览期限：北京时间 2026-11-25 00:00；之后需更新至 1.0.0 或更高版本。 0.20.0 已完成电脑端检查，尚未实机验收。",
+    "zh-TW": "預覽期限：北京時間 2026-11-25 00:00；之後需更新至 1.0.0 或更新版本。 0.20.0 已完成電腦端檢查，尚未實機驗收。",
+    "en": "Preview ends 25 Nov 2026, 00:00 China time (UTC+8). Update to 1.0.0 or later to continue. 0.20.0 passed host checks; physical device acceptance is pending.",
+    "ja": "プレビュー期限：2026年11月25日00:00（中国時間・UTC+8）。以降は1.0.0以上への更新が必要です。 0.20.0はPC上の検証済みですが、実機検証は未実施です。",
+    "ko": "미리보기 종료: 2026년 11월 25일 00:00(중국 시간, UTC+8). 이후에는 1.0.0 이상으로 업데이트해야 합니다. 0.20.0은 PC 검증을 통과했으며 실제 기기 검증은 아직 진행하지 않았습니다."
   }
 }
