@@ -5,9 +5,9 @@
   "websiteUrl": "https://dreamheart-atelier.pages.dev/",
   "versionName": "0.20.0",
   "versionCode": 83,
-  "buildId": "0200-20261111",
+  "buildId": "0200-20261111-playback-fix",
   "bytes": 331417426,
-  "sha256": "6f499cf610dea2a8f0173f46dae8730833eb94b904a05924a1a3e374683d234e",
+  "sha256": "9dd942a1a8350813903bb718835bafeced8a665f39c98a545e743cf9d454027d",
   "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/0.20.0/ShittimArk-0.20.0.apk",
   "sourceUrl": "https://github.com/Reishisomu/ShittimArk-Public",
   "mirrors": [],
@@ -21,15 +21,16 @@
   "notes": [
     "夏莱值班表新增2–5个记忆大厅的陀螺仪光栅切换。",
     "修正记忆大厅脸部暗块，接入资源、预览、备份和界面改进。",
-    "电脑端306项相关检查通过；无设备，尚未实机验收。"
+    "初版电脑端306项检查通过；本次补修23项相关检查及平板定向播放复验通过，完整验收仍待完成。",
+    "修复记忆大厅异步加载后停在一帧的问题；平板首次进入、切换学生及横竖屏已复验，完整验收仍在继续。"
   ],
   "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/0.20.0",
   "previewExpiresAt": "2026-11-25T00:00:00+08:00",
   "notices": {
-    "zh-CN": "预览期限：北京时间 2026-11-25 00:00；之后需更新至 1.0.0 或更高版本。 0.20.0 已完成电脑端检查，尚未实机验收。",
-    "zh-TW": "預覽期限：北京時間 2026-11-25 00:00；之後需更新至 1.0.0 或更新版本。 0.20.0 已完成電腦端檢查，尚未實機驗收。",
-    "en": "Preview ends 25 Nov 2026, 00:00 China time (UTC+8). Update to 1.0.0 or later to continue. 0.20.0 passed host checks; physical device acceptance is pending.",
-    "ja": "プレビュー期限：2026年11月25日00:00（中国時間・UTC+8）。以降は1.0.0以上への更新が必要です。 0.20.0はPC上の検証済みですが、実機検証は未実施です。",
-    "ko": "미리보기 종료: 2026년 11월 25일 00:00(중국 시간, UTC+8). 이후에는 1.0.0 이상으로 업데이트해야 합니다. 0.20.0은 PC 검증을 통과했으며 실제 기기 검증은 아직 진행하지 않았습니다."
+    "zh-CN": "预览期限：北京时间 2026-11-25 00:00；之后需更新至 1.0.0 或更高版本。 0.20.0 播放补修已通过平板定向检查，完整实机验收仍待完成。",
+    "zh-TW": "預覽期限：北京時間 2026-11-25 00:00；之後需更新至 1.0.0 或更新版本。 0.20.0 播放補修已通過平板定向檢查，完整實機驗收仍待完成。",
+    "en": "Preview ends 25 Nov 2026, 00:00 China time (UTC+8). Update to 1.0.0 or later to continue. 0.20.0 playback fix passed targeted tablet checks; complete physical acceptance is pending.",
+    "ja": "プレビュー期限：2026年11月25日00:00（中国時間・UTC+8）。以降は1.0.0以上への更新が必要です。 0.20.0の再生修正はタブレットでの対象項目検証済みです。全項目の実機検証は継続中です。",
+    "ko": "미리보기 종료: 2026년 11월 25일 00:00(중국 시간, UTC+8). 이후에는 1.0.0 이상으로 업데이트해야 합니다. 0.20.0 재생 수정은 태블릿의 해당 항목 검증을 통과했습니다. 전체 실제 기기 검증은 진행 중입니다."
   }
 }
