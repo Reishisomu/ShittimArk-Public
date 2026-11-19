@@ -1,5 +1,7 @@
 # 什亭方舟 · Shittim Ark
 
+**简体中文** · [繁體中文](README.zh-TW.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
+
 什亭方舟是一款由《碧蓝档案》玩家制作的 Android 桌面。把它设为默认桌面，就能在喜欢的学生身边打开常用应用。想保留现在的桌面布局，也可以单独使用动态壁纸。
 
 **[下载 Android 正式版 1.0.0.0](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.0.0.0/ShittimArk-1.0.0.0.apk)**　·　[查看本版更新](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.0.0.0)　·　[访问官网](https://dreamheart-atelier.pages.dev/)
