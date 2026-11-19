@@ -4,7 +4,7 @@
 
 Shittim Ark는 《블루 아카이브》를 즐기는 선생님이 만든 안드로이드 런처입니다. 기본 홈 앱으로 설정하면 좋아하는 학생과 함께하는 홈 화면에서 자주 쓰는 앱을 열 수 있습니다. 지금 쓰는 홈 화면의 배치를 그대로 두고 라이브 배경화면만 사용하는 것도 가능합니다.
 
-**[안드로이드 정식 버전 1.0.0.0 다운로드](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.0.0.0/ShittimArk-1.0.0.0.apk)** · [이번 버전의 변경 사항](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.0.0.0) · [프로젝트 웹사이트](https://dreamheart-atelier.pages.dev/?lang=ko)
+**[안드로이드 정식 버전 1.0.0.1 다운로드](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.0.0.1/ShittimArk-1.0.0.1.apk)** · [이번 버전의 변경 사항](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.0.0.1) · [프로젝트 웹사이트](https://dreamheart-atelier.pages.dev/?lang=ko)
 
 ![싯딤의 상자 속 밤 교실. 프라나가 책상 옆에 앉아 있고, 화면 왼쪽에는 달력, 오른쪽에는 시계와 메모가 놓여 있습니다.](assets/readme/home.jpg)
 
@@ -21,19 +21,21 @@ Shittim Ark는 《블루 아카이브》를 즐기는 선생님이 만든 안드
 
 ## 설치 및 업데이트
 
-**안드로이드 8.0 이상을 사용하는 ARM64 스마트폰과 태블릿**을 지원합니다. 이번 정식 버전은 **1.0.0.0(106)**입니다.
+**안드로이드 8.0 이상을 사용하는 ARM64 스마트폰과 태블릿**을 지원합니다. 이번 정식 버전은 **1.0.0.1(107)**입니다. 정식 버전 공개일은 2026년 11월 20일입니다.
 
-1. 위 링크에서 `ShittimArk-1.0.0.0.apk`를 다운로드한 뒤 안드로이드 기기에서 파일을 열고 안내에 따라 설치하세요. 이전 버전이 설치되어 있다면 ‘업데이트’를 선택하세요. 기존 설정과 가져온 자료가 그대로 유지됩니다.
+학원 문장의 위치를 조정했습니다. 세로 화면과 가로 화면 모두에서 문장이 설정의 모드 전환 스위치나 후원 창의 닫기 버튼을 가리지 않습니다.
+
+1. 위 링크에서 `ShittimArk-1.0.0.1.apk`를 다운로드한 뒤 안드로이드 기기에서 파일을 열고 안내에 따라 설치하세요. 이전 버전이 설치되어 있다면 ‘업데이트’를 선택하세요. 기존 설정과 가져온 자료가 그대로 유지됩니다.
 2. Shittim Ark를 열고 ‘홈 설정 → 시스템 설정 → 시스템 홈 설정’에서 기본 홈 앱으로 지정하세요. 기존 홈 앱을 계속 쓰려면 같은 화면에서 ‘라이브 배경화면만 사용’을 선택하세요.
 3. 이후 ‘홈 설정 → 홈 정보 → 서명된 업데이트 확인’에서 공개된 버전과 배포 목록의 서명 검증 결과를 확인할 수 있습니다. 정식 버전에는 이전 미리보기 버전의 사용 기한이 없습니다.
 
 <details>
 <summary>설치 파일 확인</summary>
 
-파일 크기는 378,501,311바이트입니다. 다운로드한 파일의 SHA-256 해시가 아래 값과 일치하는지 확인하세요.
+파일 크기는 378,501,687바이트입니다. 다운로드한 파일의 SHA-256 해시가 아래 값과 일치하는지 확인하세요.
 
 ```text
-6d84adce226a334b74daff6751a255cc8b562ee9ff1b4cb3518eff7a173db4eb
+dbca171bec4368bd0b4f39c95de52ea4abdabc96cc04e8bb1da2dbf252d8ba1f
 ```
 
 [이전 버전 및 자료](https://github.com/Reishisomu/ShittimArk-Public/releases)

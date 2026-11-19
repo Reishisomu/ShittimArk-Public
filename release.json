@@ -3,12 +3,12 @@
   "publicationState": "published",
   "channel": "stable",
   "websiteUrl": "https://dreamheart-atelier.pages.dev/",
-  "versionName": "1.0.0.0",
-  "versionCode": 106,
-  "buildId": "1000-106-stable",
-  "bytes": 378501311,
-  "sha256": "6d84adce226a334b74daff6751a255cc8b562ee9ff1b4cb3518eff7a173db4eb",
-  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.0.0.0/ShittimArk-1.0.0.0.apk",
+  "versionName": "1.0.0.1",
+  "versionCode": 107,
+  "buildId": "1001-107-stable",
+  "bytes": 378501687,
+  "sha256": "dbca171bec4368bd0b4f39c95de52ea4abdabc96cc04e8bb1da2dbf252d8ba1f",
+  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.0.0.1/ShittimArk-1.0.0.1.apk",
   "sourceUrl": "https://github.com/Reishisomu/ShittimArk-Public",
   "mirrors": [],
   "resources": [
@@ -19,16 +19,15 @@
     }
   ],
   "notes": [
-    "正式版取消预览期限。旧预览版可直接覆盖安装，保留本机设置和已导入的资源。",
-    "关于桌面新增软件介绍和作者留言。在赞助支持内可保存微信赞赏码、复制反馈 QQ 群号并打开 Telegram 群。",
-    "更新检查支持签名验证、备用来源和超时重试。"
+    "1.0.0.1 正式版于 2026 年 11 月 20 日公开发布。",
+    "修正横屏和竖屏下，学院校徽与设置页模式开关、赞助页关闭按钮重叠的问题。"
   ],
-  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.0.0.0",
+  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.0.0.1",
   "notices": {
-    "zh-CN": "1.0.0.0 正式版已移除预览期限。已有预览版可直接覆盖安装，保留设置和已导入的资源。在「关于桌面 → 赞助支持」可找到微信赞赏码与反馈群。",
-    "zh-TW": "1.0.0.0 正式版已移除預覽期限。已有預覽版可直接覆蓋安裝，保留設定與已匯入的資源。在「關於桌面 → 贊助支持」可找到微信讚賞碼與意見回饋群組。",
-    "en": "Version 1.0.0.0 is the stable release and has no preview expiry. Install it over your preview build to keep your settings and imported content. Find the WeChat support code and feedback groups under About Desktop → Sponsor Support.",
-    "ja": "正式版 1.0.0.0 ではプレビューの利用期限を撤廃しました。プレビュー版に上書きインストールすると、設定とインポート済みの素材を引き継げます。「デスクトップについて」の支援ページに WeChat の応援コードとフィードバック用のグループを掲載しています。",
-    "ko": "정식 버전 1.0.0.0에는 미리보기 사용 기한이 없습니다. 기존 미리보기 버전 위에 설치하면 설정과 가져온 자료가 유지됩니다. 데스크톱 정보의 후원 페이지에서 위챗 후원 코드와 피드백 그룹을 확인할 수 있습니다."
+    "zh-CN": "1.0.0.1 正式版于 2026 年 11 月 20 日公开发布。本版修正了使用学院皮肤时，校徽与设置页模式开关、赞助页关闭按钮重叠的问题，横屏和竖屏均已适配。",
+    "zh-TW": "1.0.0.1 正式版於 2026 年 11 月 20 日公開發行。本版修正了套用學院佈景時，校徽與設定頁模式切換按鈕、贊助頁關閉按鈕重疊的問題，適用於橫向與直向畫面。",
+    "en": "Version 1.0.0.1 was publicly released on 20 November 2026. The academy crest no longer overlaps the mode switch in Settings or the close button on the support page, in either portrait or landscape.",
+    "ja": "正式版 1.0.0.1 は 2026年11月20日に公開されました。学園スキンの校章が設定画面のモード切替ボタンや支援ページの閉じるボタンに重なる問題を、縦画面と横画面の両方で修正しました。",
+    "ko": "1.0.0.1 정식 버전이 2026년 11월 20일에 공개되었습니다. 학원 테마를 적용했을 때 학교 문장이 설정 화면의 모드 전환 버튼이나 개발자 후원 화면의 닫기 버튼과 겹치던 문제를 가로·세로 화면 모두에서 수정했습니다."
   }
 }

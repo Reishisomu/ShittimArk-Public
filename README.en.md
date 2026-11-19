@@ -4,7 +4,7 @@
 
 Shittim Ark is an Android launcher made by a *Blue Archive* fan. Set it as your home screen to open your everyday apps from a student's Memorial Lobby, or use a scene as live wallpaper with your current launcher.
 
-**[Download version 1.0.0.0 for Android](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.0.0.0/ShittimArk-1.0.0.0.apk)** · [Release notes](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.0.0.0) · [Website](https://dreamheart-atelier.pages.dev/?lang=en)
+**[Download version 1.0.0.1 for Android](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.0.0.1/ShittimArk-1.0.0.1.apk)** · [Release notes](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.0.0.1) · [Website](https://dreamheart-atelier.pages.dev/?lang=en)
 
 ![The Shittim Chest classroom at night. Plana sits at a desk between a calendar on the left and a clock and note on the right.](assets/readme/home.jpg)
 
@@ -21,19 +21,21 @@ Shittim Ark is an Android launcher made by a *Blue Archive* fan. Set it as your 
 
 ## Install and update
 
-Shittim Ark runs on **ARM64 phones and tablets with Android 8.0 or later**. The current release is **1.0.0.0 (build 106)**.
+Shittim Ark runs on **ARM64 phones and tablets with Android 8.0 or later**. The current release is **1.0.0.1 (build 107)**. Public release date: November 20, 2026.
 
-1. Download `ShittimArk-1.0.0.0.apk`, open it on your device and follow the Android installer. If you already have Shittim Ark, choose **Update** to keep your settings and imported resources.
+The academy emblem now has its own space next to the settings mode switch and in the support dialog. Both the switch and the close button stay clear in portrait and landscape.
+
+1. Download `ShittimArk-1.0.0.1.apk`, open it on your device and follow the Android installer. If you already have Shittim Ark, choose **Update** to keep your settings and imported resources.
 2. Go to **Desktop settings → System settings → Set up system home** to make Shittim Ark your launcher. To keep your current launcher, choose **Use live wallpaper only** in System settings.
 3. Open **Desktop settings → About this desktop → Check signed updates** to see the published version and its signature verification result. This release removes the old preview's expiry date.
 
 <details>
 <summary>Verify the APK</summary>
 
-The file is 378,501,311 bytes. Its SHA-256 checksum is
+The file is 378,501,687 bytes. Its SHA-256 checksum is
 
 ```text
-6d84adce226a334b74daff6751a255cc8b562ee9ff1b4cb3518eff7a173db4eb
+dbca171bec4368bd0b4f39c95de52ea4abdabc96cc04e8bb1da2dbf252d8ba1f
 ```
 
 [Previous releases and resources](https://github.com/Reishisomu/ShittimArk-Public/releases)
