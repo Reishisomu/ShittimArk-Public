@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "publicationState": "published",
-  "channel": "prerelease",
+  "channel": "stable",
   "websiteUrl": "https://dreamheart-atelier.pages.dev/",
-  "versionName": "0.20.0",
-  "versionCode": 83,
-  "buildId": "0200-20261111-independent-lenticular",
-  "bytes": 331417426,
-  "sha256": "9f17bf4decdd851ebbafa04993ed1c624b6ba66f0ad288e35fd0c005865dff95",
-  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/0.20.0/ShittimArk-0.20.0.apk",
+  "versionName": "1.0.0.0",
+  "versionCode": 106,
+  "buildId": "1000-106-stable",
+  "bytes": 378501311,
+  "sha256": "6d84adce226a334b74daff6751a255cc8b562ee9ff1b4cb3518eff7a173db4eb",
+  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.0.0.0/ShittimArk-1.0.0.0.apk",
   "sourceUrl": "https://github.com/Reishisomu/ShittimArk-Public",
   "mirrors": [],
   "resources": [
@@ -19,19 +19,16 @@
     }
   ],
   "notes": [
-    "记忆大厅新增独立光栅模式，从全部已下载资源选择2–5位学生；值班表单独管理轮播。",
-    "修正记忆大厅脸部暗块，接入资源、预览、备份和界面改进。",
-    "初版电脑端306项检查通过；本次补修23项相关检查及平板定向播放复验通过，完整验收仍待完成。",
-    "修复记忆大厅异步加载后停在一帧的问题；平板首次进入、切换学生及横竖屏已复验，完整验收仍在继续。",
-    "独立入口、空值班表选人、简约模式搜索、2/5人播放与退出恢复已通过平板定向检查；48项相关自动测试通过。"
+    "正式版取消预览期限。旧预览版可直接覆盖安装，保留本机设置和已导入的资源。",
+    "关于桌面新增软件介绍和作者留言。在赞助支持内可保存微信赞赏码、复制反馈 QQ 群号并打开 Telegram 群。",
+    "更新检查支持签名验证、备用来源和超时重试。"
   ],
-  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/0.20.0",
-  "previewExpiresAt": "2026-11-25T00:00:00+08:00",
+  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.0.0.0",
   "notices": {
-    "zh-CN": "预览期限：北京时间 2026-11-25 00:00；之后需更新至 1.0.0 或更高版本。 0.20.0 独立光栅入口已通过平板定向检查，完整实机验收仍待完成。",
-    "zh-TW": "預覽期限：北京時間 2026-11-25 00:00；之後需更新至 1.0.0 或更新版本。 0.20.0 獨立光柵入口已通過平板定向檢查，完整實機驗收仍待完成。",
-    "en": "Preview ends 25 Nov 2026, 00:00 China time (UTC+8). Update to 1.0.0 or later to continue. 0.20.0 independent lenticular controls passed targeted tablet checks; full physical acceptance is pending.",
-    "ja": "プレビュー期限：2026年11月25日00:00（中国時間・UTC+8）。以降は1.0.0以上への更新が必要です。 0.20.0の独立したレンチキュラー設定はタブレットでの対象項目検証済みです。全項目の実機検証は継続中です。",
-    "ko": "미리보기 종료: 2026년 11월 25일 00:00(중국 시간, UTC+8). 이후에는 1.0.0 이상으로 업데이트해야 합니다. 0.20.0의 독립 렌티큘러 설정은 태블릿의 해당 항목 검증을 통과했습니다. 전체 실제 기기 검증은 진행 중입니다."
+    "zh-CN": "1.0.0.0 正式版已移除预览期限。已有预览版可直接覆盖安装，保留设置和已导入的资源。在「关于桌面 → 赞助支持」可找到微信赞赏码与反馈群。",
+    "zh-TW": "1.0.0.0 正式版已移除預覽期限。已有預覽版可直接覆蓋安裝，保留設定與已匯入的資源。在「關於桌面 → 贊助支持」可找到微信讚賞碼與意見回饋群組。",
+    "en": "Version 1.0.0.0 is the stable release and has no preview expiry. Install it over your preview build to keep your settings and imported content. Find the WeChat support code and feedback groups under About Desktop → Sponsor Support.",
+    "ja": "正式版 1.0.0.0 ではプレビューの利用期限を撤廃しました。プレビュー版に上書きインストールすると、設定とインポート済みの素材を引き継げます。「デスクトップについて」の支援ページに WeChat の応援コードとフィードバック用のグループを掲載しています。",
+    "ko": "정식 버전 1.0.0.0에는 미리보기 사용 기한이 없습니다. 기존 미리보기 버전 위에 설치하면 설정과 가져온 자료가 유지됩니다. 데스크톱 정보의 후원 페이지에서 위챗 후원 코드와 피드백 그룹을 확인할 수 있습니다."
   }
 }

@@ -10,7 +10,14 @@ let language = 'zh-CN';
 let release = null;
 let releaseState = 'loading';
 let feedbackState = '';
-function text(key) {return translations[language][key];}
+const sponsorText = {
+  'zh-CN': {support:'赞助支持', close:'关闭', codeAlt:'Shittim Ark 作者的微信赞赏码', saveCode:'保存微信赞赏码'},
+  'zh-TW': {support:'贊助支持', close:'關閉', codeAlt:'Shittim Ark 作者的微信讚賞碼', saveCode:'儲存微信讚賞碼'},
+  en: {support:'Support', close:'Close', codeAlt:'WeChat appreciation code for the creator of Shittim Ark', saveCode:'Save WeChat code'},
+  ja: {support:'作者を応援', close:'閉じる', codeAlt:'Shittim Ark 作者の WeChat 応援コード', saveCode:'WeChat コードを保存'},
+  ko: {support:'후원하기', close:'닫기', codeAlt:'Shittim Ark 제작자의 WeChat 후원 코드', saveCode:'WeChat 코드 저장'}
+};
+function text(key) {return translations[language][key] ?? sponsorText[language][key];}
 function httpsUrl(value) {
   if (typeof value !== 'string' || !value) return null;
   try {const u = new URL(value); return u.protocol === 'https:' && !u.username && !u.password ? u.href : null;} catch {return null;}
@@ -41,6 +48,18 @@ document.querySelector('#language').addEventListener('change', event => {
   const url = new URL(location.href);url.searchParams.delete('lang');
   try {history.replaceState(null, '', url);} catch {}
 });
+const sponsorDialog = document.querySelector('#sponsor-dialog');
+document.querySelector('#open-sponsor').addEventListener('click', event => {
+  if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || typeof sponsorDialog.showModal !== 'function') return;
+  event.preventDefault();
+  sponsorDialog.showModal();
+});
+document.querySelector('#close-sponsor').addEventListener('click', () => sponsorDialog.close());
+sponsorDialog.addEventListener('click', event => {
+  if (event.target !== sponsorDialog) return;
+  const bounds = sponsorDialog.getBoundingClientRect();
+  if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) sponsorDialog.close();
+});
 document.querySelector('#copy-hash').addEventListener('click', async () => {
   if (!release || !/^[0-9a-f]{64}$/.test(release.sha256)) return;
   try {await navigator.clipboard.writeText(release.sha256);feedbackState = 'copied';} catch {feedbackState = 'failed';}
@@ -55,6 +74,8 @@ async function loadRelease() {
     if (value.publicationState !== 'published' || !download || !/^[0-9a-f]{64}$/.test(value.sha256) || !Number.isFinite(value.bytes) || value.bytes <= 0) throw new Error('Release not published');
     release = value;releaseState = 'ready';
     document.querySelector('#version-number').textContent = release.versionName;
+    document.querySelector('#version-number').hidden = false;
+    document.querySelector('#version-divider').hidden = false;
     document.querySelector('#file-size').textContent = `ARM64 · ${(release.bytes / 1048576).toFixed(1)} MiB`;
     const link = document.querySelector('#download-apk');link.href = download;link.removeAttribute('aria-disabled');link.rel = 'noopener noreferrer';
     document.querySelector('#copy-hash').disabled = false;

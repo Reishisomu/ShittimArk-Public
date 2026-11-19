@@ -10,3 +10,68 @@ html[lang=en] h1,html[lang=ja] h1,html[lang=ko] h1{font-size:clamp(38px,3.8vw,58
 html[lang=en] h1 span,html[lang=ja] h1 span,html[lang=ko] h1 span{white-space:normal}
 @media(max-width:760px){html[lang=ja] .actions,html[lang=ko] .actions{flex-direction:column}html[lang=ja] .button,html[lang=ko] .button{width:100%}html[lang=en] h1,html[lang=ja] h1,html[lang=ko] h1{font-size:clamp(25px,7.8vw,33px)}}
  @media(max-width:760px){html[lang=en] .actions{flex-direction:column}html[lang=en] .button{width:100%}}
+
+.sponsor-nav, .save-code {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background: #e8f8ff;
+  color: #185e84;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.sponsor-nav:hover, .save-code:hover { background: #d0f1ff; }
+#sponsor-dialog {
+  position: fixed;
+  inset: 0;
+  width: min(350px, calc(100% - 28px));
+  max-height: calc(100% - 32px);
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  padding: 16px 20px 20px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  border: 1px solid #50617c;
+  border-radius: 16px;
+  background: #13243b;
+  color: #f2f6fc;
+  text-align: center;
+  box-shadow: 0 16px 64px #0b1b3a44;
+}
+#sponsor-dialog:not([open]) { display: none; }
+#sponsor-dialog::backdrop { background: #0b182db5; }
+#sponsor-dialog h2 { font-size: 1.25rem; margin: .35rem 0 .8rem; }
+.sponsor-gift { font-size: 1.65rem; }
+#close-sponsor {
+  position: absolute;
+  inset: 4px 4px auto auto;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #f2f6fc;
+  font-size: 1.65rem;
+}
+#close-sponsor:hover { background: #ffffff18; }
+#close-sponsor:focus-visible { outline-offset: -4px; }
+#sponsor-dialog img {
+  display: block;
+  width: min(100%, max(155px, 53vh));
+  height: auto;
+  margin: 0 auto 12px;
+  background: white;
+}
+.save-code { width: 100%; font-size: 1rem; }
+@media (max-width: 760px) {
+  .sponsor-nav { position: absolute; top: 8px; right: 20px; }
+}
+@media (max-width: 430px) {
+  .site-header { padding-inline: 16px; }
+  .site-header .brand { font-size: clamp(16px, 4.5vw, 19px); gap: 8px; }
+  .site-header .atelier-mark { width: 36px; padding-right: 8px; }
+  .sponsor-nav { right: 16px; padding-inline: 10px; }
+}
