@@ -10,7 +10,16 @@
   "sha256": "dbca171bec4368bd0b4f39c95de52ea4abdabc96cc04e8bb1da2dbf252d8ba1f",
   "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.0.0.1/ShittimArk-1.0.0.1.apk",
   "sourceUrl": "https://github.com/Reishisomu/ShittimArk-Public",
-  "mirrors": [],
+  "mirrors": [
+    {
+      "name": "GitHub 官方附件直连",
+      "url": "https://dreamheart-atelier.pages.dev/downloads/ShittimArk-1.0.0.1.apk",
+      "versionName": "1.0.0.1",
+      "versionCode": 107,
+      "bytes": 378501687,
+      "sha256": "dbca171bec4368bd0b4f39c95de52ea4abdabc96cc04e8bb1da2dbf252d8ba1f"
+    }
+  ],
   "resources": [
     {
       "name": "下载 5 套兼容桌宠资源包（77.2 MiB）",
