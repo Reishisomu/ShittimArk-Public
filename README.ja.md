@@ -4,7 +4,7 @@
 
 シッテム・アークは、『ブルーアーカイブ』のファンが制作した Android 用ホームアプリです。既定のホームに設定すると、お気に入りの生徒がいる画面から、いつも使うアプリを開けます。今のホーム画面やアイコンの配置をそのまま使いたい方は、ライブ壁紙だけを楽しむこともできます。
 
-**[Android 正式版 1.0.0.1 をダウンロード](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.0.0.1/ShittimArk-1.0.0.1.apk)**　·　[今回の更新内容](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.0.0.1)　·　[配布サイト](https://dreamheart-atelier.pages.dev/?lang=ja)
+**[Android 正式版 1.1.0.0 をダウンロード](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.1.0.0/ShittimArk-1.1.0.0.apk)** · [公式サイトからダウンロード](https://dreamheart-atelier.pages.dev/downloads/ShittimArk-1.1.0.0.apk)　·　[今回の更新内容](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.0.0)　·　[配布サイト](https://dreamheart-atelier.pages.dev/?lang=ja)
 
 ![シッテムの箱の夜の教室。机のそばにプラナが座り、画面の左にはカレンダー、右には時計と付箋がある。](assets/readme/home.jpg)
 
@@ -21,21 +21,21 @@
 
 ## インストールと更新
 
-**Android 8.0 以降を搭載した ARM64 のスマートフォンとタブレット**に対応しています。今回の正式版は **1.0.0.1（107）** です。 正式版の公開日は 2026 年 11 月 20 日です。
+**Android 8.0 以降を搭載した ARM64 のスマートフォンとタブレット**に対応しています。今回の正式版は **1.1.0.0（117）** です。 正式版の公開日は 2026 年 11 月 22 日です。
 
-学園の校章の位置を調整しました。縦画面でも横画面でも、設定のモード切替スイッチと応援画面の閉じるボタンに校章が重なりません。
+ホームの設定項目とスイッチが学園のイラスト上に直接表示されます。検索欄に入力すると枠線が明るくなり、お気に入りは複数選んでまとめて解除できます。
 
-1. 上のリンクから `ShittimArk-1.0.0.1.apk` をダウンロードし、Android 端末で開いて画面の案内に従ってください。旧版をお使いの先生は、そのまま「更新」を選ぶと設定や取り込み済みの素材を引き継げます。
+1. 上のリンクから `ShittimArk-1.1.0.0.apk` をダウンロードし、Android 端末で開いて画面の案内に従ってください。旧版をお使いの先生は、そのまま「更新」を選ぶと設定や取り込み済みの素材を引き継げます。
 2. シッテム・アークを開き、「ホーム設定 → システム設定 → ホームアプリを設定」から既定のホームに設定します。今お使いのホームを引き続き使いたい場合は、「システム設定」で「ライブ壁紙のみ使用」を選んでください。
 3. 以降は「ホーム設定 → ホームについて → 署名付き更新を確認」で、公開中のバージョンと配信リストの署名検証結果を確認できます。正式版では、旧プレビュー版に設けていた利用期限を撤廃しました。
 
 <details>
 <summary>インストールファイルを照合する</summary>
 
-ファイルサイズは 378,501,687 バイトです。ダウンロードした APK の SHA-256 を次の値と照合できます。
+ファイルサイズは 378,564,281 バイトです。ダウンロードした APK の SHA-256 を次の値と照合できます。
 
 ```text
-dbca171bec4368bd0b4f39c95de52ea4abdabc96cc04e8bb1da2dbf252d8ba1f
+17890cdf4d0b431eacb1cf5304dcde79d4e98505756fbba1364fd6737a10077e
 ```
 
 [過去のバージョンと配布ファイル](https://github.com/Reishisomu/ShittimArk-Public/releases)

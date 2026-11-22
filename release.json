@@ -3,21 +3,21 @@
   "publicationState": "published",
   "channel": "stable",
   "websiteUrl": "https://dreamheart-atelier.pages.dev/",
-  "versionName": "1.0.0.1",
-  "versionCode": 107,
-  "buildId": "1001-107-stable",
-  "bytes": 378501687,
-  "sha256": "dbca171bec4368bd0b4f39c95de52ea4abdabc96cc04e8bb1da2dbf252d8ba1f",
-  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.0.0.1/ShittimArk-1.0.0.1.apk",
+  "versionName": "1.1.0.0",
+  "versionCode": 117,
+  "buildId": "1100-117-stable",
+  "bytes": 378564281,
+  "sha256": "17890cdf4d0b431eacb1cf5304dcde79d4e98505756fbba1364fd6737a10077e",
+  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.1.0.0/ShittimArk-1.1.0.0.apk",
   "sourceUrl": "https://github.com/Reishisomu/ShittimArk-Public",
   "mirrors": [
     {
       "name": "GitHub 官方附件直连",
-      "url": "https://dreamheart-atelier.pages.dev/downloads/ShittimArk-1.0.0.1.apk",
-      "versionName": "1.0.0.1",
-      "versionCode": 107,
-      "bytes": 378501687,
-      "sha256": "dbca171bec4368bd0b4f39c95de52ea4abdabc96cc04e8bb1da2dbf252d8ba1f"
+      "url": "https://dreamheart-atelier.pages.dev/downloads/ShittimArk-1.1.0.0.apk",
+      "versionName": "1.1.0.0",
+      "versionCode": 117,
+      "bytes": 378564281,
+      "sha256": "17890cdf4d0b431eacb1cf5304dcde79d4e98505756fbba1364fd6737a10077e"
     }
   ],
   "resources": [
@@ -28,15 +28,16 @@
     }
   ],
   "notes": [
-    "1.0.0.1 正式版于 2026 年 11 月 20 日公开发布。",
-    "修正横屏和竖屏下，学院校徽与设置页模式开关、赞助页关闭按钮重叠的问题。"
+    "1.1.0.0 正式版于 2026 年 11 月 22 日公开发布。",
+    "桌面设置、搜索栏和参数页采用透明控件。桌面调整收紧窗口，桌面显示的四宫格跟随当前界面字体。",
+    "收藏设置支持多选移除。13 套学院皮肤使用透明校徽和专属英文字标。"
   ],
-  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.0.0.1",
+  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.0.0",
   "notices": {
-    "zh-CN": "1.0.0.1 正式版于 2026 年 11 月 20 日公开发布。本版修正了使用学院皮肤时，校徽与设置页模式开关、赞助页关闭按钮重叠的问题，横屏和竖屏均已适配。",
-    "zh-TW": "1.0.0.1 正式版於 2026 年 11 月 20 日公開發行。本版修正了套用學院佈景時，校徽與設定頁模式切換按鈕、贊助頁關閉按鈕重疊的問題，適用於橫向與直向畫面。",
-    "en": "Version 1.0.0.1 was publicly released on 20 November 2026. The academy crest no longer overlaps the mode switch in Settings or the close button on the support page, in either portrait or landscape.",
-    "ja": "正式版 1.0.0.1 は 2026年11月20日に公開されました。学園スキンの校章が設定画面のモード切替ボタンや支援ページの閉じるボタンに重なる問題を、縦画面と横画面の両方で修正しました。",
-    "ko": "1.0.0.1 정식 버전이 2026년 11월 20일에 공개되었습니다. 학원 테마를 적용했을 때 학교 문장이 설정 화면의 모드 전환 버튼이나 개발자 후원 화면의 닫기 버튼과 겹치던 문제를 가로·세로 화면 모두에서 수정했습니다."
+    "zh-CN": "1.1.0.0 正式版于 2026 年 11 月 22 日发布。设置和参数控件直接显示在学院插画上。桌面调整窗口更紧凑，场景选择跟随界面字体，收藏支持多选移除。13 套学院皮肤新增透明校徽和专属英文字标。",
+    "zh-TW": "1.1.0.0 正式版於 2026 年 11 月 22 日發行。設定與參數控制項直接顯示在學院插畫上。桌面調整視窗更精巧，場景選擇沿用介面字型，收藏可多選移除。13 套學院佈景新增透明校徽與專屬英文字標。",
+    "en": "Version 1.1.0.0 was released on 22 November 2026. Settings controls now sit directly on the academy artwork. Desktop adjustments use a smaller window, the scene picker follows your interface font, and you can remove multiple favorites at once. All 13 academy skins now feature transparent crests and custom English wordmarks.",
+    "ja": "正式版 1.1.0.0 を2026年11月22日に公開しました。設定項目を学園のイラスト上に直接表示し、デスクトップ調整のウィンドウをコンパクトにしました。シーン選択にUIフォントが反映され、お気に入りをまとめて解除できます。13種類の学園スキンに背景が透明な校章と専用の英字ロゴを追加しました。",
+    "ko": "1.1.0.0 정식 버전이 2026년 11월 22일에 출시되었습니다. 설정 항목이 학원 일러스트 위에 바로 표시됩니다. 데스크톱 조정 창이 작아졌고, 장면 선택에 인터페이스 글꼴이 적용되며, 즐겨찾기를 여러 개 골라 한 번에 해제할 수 있습니다. 13가지 학원 스킨에 배경이 투명한 교표와 전용 영문 로고를 추가했습니다."
   }
 }
