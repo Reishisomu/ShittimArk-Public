@@ -3,21 +3,21 @@
   "publicationState": "published",
   "channel": "stable",
   "websiteUrl": "https://dreamheart-atelier.pages.dev/",
-  "versionName": "1.1.0.0",
-  "versionCode": 117,
-  "buildId": "1100-117-stable",
-  "bytes": 378564281,
-  "sha256": "17890cdf4d0b431eacb1cf5304dcde79d4e98505756fbba1364fd6737a10077e",
-  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.1.0.0/ShittimArk-1.1.0.0.apk",
+  "versionName": "1.1.1.0",
+  "versionCode": 125,
+  "buildId": "1110-125-stable",
+  "bytes": 380178624,
+  "sha256": "7e55dd852e4a10b9c9df525896e6e7b503791e24a5d64f1dcbc63aafc7469356",
+  "downloadUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.1.1.0/ShittimArk-1.1.1.0.apk",
   "sourceUrl": "https://github.com/Reishisomu/ShittimArk-Public",
   "mirrors": [
     {
       "name": "GitHub 官方附件直连",
-      "url": "https://dreamheart-atelier.pages.dev/downloads/ShittimArk-1.1.0.0.apk",
-      "versionName": "1.1.0.0",
-      "versionCode": 117,
-      "bytes": 378564281,
-      "sha256": "17890cdf4d0b431eacb1cf5304dcde79d4e98505756fbba1364fd6737a10077e"
+      "url": "https://dreamheart-atelier.pages.dev/downloads/ShittimArk-1.1.1.0.apk",
+      "versionName": "1.1.1.0",
+      "versionCode": 125,
+      "bytes": 380178624,
+      "sha256": "7e55dd852e4a10b9c9df525896e6e7b503791e24a5d64f1dcbc63aafc7469356"
     }
   ],
   "resources": [
@@ -28,16 +28,16 @@
     }
   ],
   "notes": [
-    "1.1.0.0 正式版于 2026 年 11 月 22 日公开发布。",
-    "桌面设置、搜索栏和参数页采用透明控件。桌面调整收紧窗口，桌面显示的四宫格跟随当前界面字体。",
-    "收藏设置支持多选移除。13 套学院皮肤使用透明校徽和专属英文字标。"
+    "灵动岛可选胶囊或小球，点开可查看音乐、调节亮度和音量。",
+    "经典与 13 个学院皮肤新增参考官方角色立绘绘制的透明同人半身像。",
+    "时钟默认花笺手写、关闭底板，字号上限 400 sp。界面默认糖果萌圆。首次升级应用一次，之后保留自选设置。"
   ],
-  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.0.0",
+  "releaseUrl": "https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.1.0",
   "notices": {
-    "zh-CN": "1.1.0.0 正式版于 2026 年 11 月 22 日发布。设置和参数控件直接显示在学院插画上。桌面调整窗口更紧凑，场景选择跟随界面字体，收藏支持多选移除。13 套学院皮肤新增透明校徽和专属英文字标。",
-    "zh-TW": "1.1.0.0 正式版於 2026 年 11 月 22 日發行。設定與參數控制項直接顯示在學院插畫上。桌面調整視窗更精巧，場景選擇沿用介面字型，收藏可多選移除。13 套學院佈景新增透明校徽與專屬英文字標。",
-    "en": "Version 1.1.0.0 was released on 22 November 2026. Settings controls now sit directly on the academy artwork. Desktop adjustments use a smaller window, the scene picker follows your interface font, and you can remove multiple favorites at once. All 13 academy skins now feature transparent crests and custom English wordmarks.",
-    "ja": "正式版 1.1.0.0 を2026年11月22日に公開しました。設定項目を学園のイラスト上に直接表示し、デスクトップ調整のウィンドウをコンパクトにしました。シーン選択にUIフォントが反映され、お気に入りをまとめて解除できます。13種類の学園スキンに背景が透明な校章と専用の英字ロゴを追加しました。",
-    "ko": "1.1.0.0 정식 버전이 2026년 11월 22일에 출시되었습니다. 설정 항목이 학원 일러스트 위에 바로 표시됩니다. 데스크톱 조정 창이 작아졌고, 장면 선택에 인터페이스 글꼴이 적용되며, 즐겨찾기를 여러 개 골라 한 번에 해제할 수 있습니다. 13가지 학원 스킨에 배경이 투명한 교표와 전용 영문 로고를 추가했습니다."
+    "zh-CN": "1.1.1.0 为灵动岛加入胶囊和小球两种形态。经典与 13 个学院皮肤都有以官方角色立绘为参考绘制的透明同人半身像。点开可查看音乐、调节亮度和音量。更新后时钟和界面字体各应用一次新默认设置，之后可自由更改。",
+    "zh-TW": "1.1.1.0 的靈動島可選擇膠囊或小球外形。經典與 13 個學院佈景各有一張參考官方角色立繪繪製的透明同人半身像。點開即可查看音樂、調整亮度與音量。更新後會套用一次新的時鐘與介面字型預設，之後可自行更改。",
+    "en": "Version 1.1.1.0 lets you choose a pill or a ball for the Floating island. The classic skin and all 13 academy skins feature transparent fan portraits based on official character art. Tap the island to see your music or adjust brightness and volume. The new clock and interface font defaults apply once on upgrade.",
+    "ja": "1.1.1.0 ではフローティングアイランドをカプセル型とボール型から選べます。クラシックと13種類の学園スキンには、公式の立ち絵を参考に描いた、背景が透明な生徒のファンアートを用意しました。タップすると音楽の確認や明るさ・音量の調整ができます。時計と画面フォントの新しい初期設定は、更新後に一度だけ適用されます。",
+    "ko": "1.1.1.0에서는 다이내믹 아일랜드를 캡슐이나 구슬 모양으로 바꿀 수 있어요. 기본 스킨과 13개 학원 스킨에는 공식 캐릭터 일러스트를 참고해 그린 배경이 투명한 학생 팬아트가 한 장씩 들어 있어요. 아일랜드를 누르면 음악을 확인하거나 밝기와 음량을 조절할 수 있어요. 새 시계 및 화면 글꼴 기본값은 업데이트 후 한 번만 적용돼요."
   }
 }

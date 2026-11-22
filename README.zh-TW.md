@@ -4,7 +4,7 @@
 
 什亭方舟是由《蔚藍檔案》玩家製作的 Android 桌面。設為預設桌面後，每次開啟常用的應用程式，都能看到喜歡的學生。想保留現在的主畫面配置，也可以只使用動態桌布。
 
-**[下載 Android 正式版 1.1.0.0](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.1.0.0/ShittimArk-1.1.0.0.apk)** · [從官網直接下載](https://dreamheart-atelier.pages.dev/downloads/ShittimArk-1.1.0.0.apk)　·　[查看本版更新內容](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.0.0)　·　[前往官網](https://dreamheart-atelier.pages.dev/?lang=zh-TW)
+**[下載 Android 正式版 1.1.1.0](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.1.1.0/ShittimArk-1.1.1.0.apk)** · [從官網直接下載](https://dreamheart-atelier.pages.dev/downloads/ShittimArk-1.1.1.0.apk)　·　[查看本版更新內容](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.1.0)　·　[前往官網](https://dreamheart-atelier.pages.dev/?lang=zh-TW)
 
 ![什亭之匣的夜間教室桌面。普拉娜坐在課桌旁，左邊是月曆，右邊是時鐘和便條。](assets/readme/home.jpg)
 
@@ -23,24 +23,26 @@
 
 ## 安裝與更新
 
-支援 **Android 8.0 以上的 ARM64 手機與平板**。本次正式版為 **1.1.0.0（117）**。 正式版於 2026 年 11 月 22 日公開發布。
+支援 **Android 8.0 以上的 ARM64 手機與平板**。本次正式版為 **1.1.1.0（125）**。 正式版於 2026 年 11 月 22 日公開發布。
 
-桌面參數頁的操作項目與開關直接顯示在學院插畫上，點進搜尋欄時外框會亮起。收藏設定現在可以一次移除多個項目。
+靈動島收起時預設為帶有電量環的膠囊，也能改成小球。點開可查看曲目、調整亮度與音量。經典與 13 個學院佈景各有一張參考官方角色立繪繪製的透明同人半身像。首次從 1.1.0.0 更新時，時鐘會換成花箋手寫並關閉底板，介面字型會換成糖果萌圓。這三項只套用一次，原有時鐘字級會保留。
 
-1. 下載上方的 `ShittimArk-1.1.0.0.apk`，在 Android 裝置上開啟檔案，依系統提示安裝。已經安裝舊版的老師可以直接選擇更新，原有設定和匯入的資源都會保留。
+1. 下載上方的 `ShittimArk-1.1.1.0.apk`，在 Android 裝置上開啟檔案，依系統提示安裝。已經安裝舊版的老師可以直接選擇更新，原有設定和匯入的資源都會保留。
 2. 開啟什亭方舟，在「桌面设置 → 系统设置 → 设置系统桌面」將它設為預設桌面。如果想繼續使用原來的桌面，請在「系统设置」頁選擇「仅用动态壁纸」。
 3. 日後可到「桌面设置 → 关于桌面 → 检查已签名更新」查看公開版本，以及發布清單的數位簽章驗證結果。正式版已取消舊預覽版的使用期限。
 
 <details>
 <summary>核對安裝檔</summary>
 
-檔案大小為 378,564,281 位元組。下載檔案的 SHA-256 雜湊值應為
+檔案大小為 380,178,624 位元組。下載檔案的 SHA-256 雜湊值應為
 
 ```text
-17890cdf4d0b431eacb1cf5304dcde79d4e98505756fbba1364fd6737a10077e
+7e55dd852e4a10b9c9df525896e6e7b503791e24a5d64f1dcbc63aafc7469356
 ```
 
 [歷史版本與資源](https://github.com/Reishisomu/ShittimArk-Public/releases)
+
+[回顧 1.1.0.0 更新內容](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.0.0) · 桌面參數頁的操作項目與開關直接顯示在學院插畫上，點進搜尋欄時外框會亮起。收藏設定現在可以一次移除多個項目。
 
 </details>
 

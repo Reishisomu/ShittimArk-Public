@@ -4,7 +4,7 @@
 
 Shittim Ark is an Android launcher made by a *Blue Archive* fan. Set it as your home screen to open your everyday apps from a student's Memorial Lobby, or use a scene as live wallpaper with your current launcher.
 
-**[Download version 1.1.0.0 for Android](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.1.0.0/ShittimArk-1.1.0.0.apk)** · [Download from the website](https://dreamheart-atelier.pages.dev/downloads/ShittimArk-1.1.0.0.apk) · [Release notes](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.0.0) · [Website](https://dreamheart-atelier.pages.dev/?lang=en)
+**[Download version 1.1.1.0 for Android](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.1.1.0/ShittimArk-1.1.1.0.apk)** · [Download from the website](https://dreamheart-atelier.pages.dev/downloads/ShittimArk-1.1.1.0.apk) · [Release notes](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.1.0) · [Website](https://dreamheart-atelier.pages.dev/?lang=en)
 
 ![The Shittim Chest classroom at night. Plana sits at a desk between a calendar on the left and a clock and note on the right.](assets/readme/home.jpg)
 
@@ -21,24 +21,26 @@ Shittim Ark is an Android launcher made by a *Blue Archive* fan. Set it as your 
 
 ## Install and update
 
-Shittim Ark runs on **ARM64 phones and tablets with Android 8.0 or later**. The current release is **1.1.0.0 (build 117)**. Public release date: November 22, 2026.
+Shittim Ark runs on **ARM64 phones and tablets with Android 8.0 or later**. The current release is **1.1.1.0 (build 125)**. Public release date: November 22, 2026.
 
-Desktop settings actions and switches now sit directly on the academy artwork. The search field highlights its outline when focused, and you can remove several favorites at once.
+The Floating island collapses into a pill with a battery ring, or you can choose a ball. Tap it to see the current track or adjust brightness and volume. The classic skin and the 13 academy skins each have a transparent fan portrait based on official character art. On your first upgrade from 1.1.0.0, the clock switches to Floral handwriting with its background off, and the interface font switches to Art · Candy Round. These defaults apply once. Your clock size carries over.
 
-1. Download `ShittimArk-1.1.0.0.apk`, open it on your device and follow the Android installer. If you already have Shittim Ark, choose **Update** to keep your settings and imported resources.
+1. Download `ShittimArk-1.1.1.0.apk`, open it on your device and follow the Android installer. If you already have Shittim Ark, choose **Update** to keep your settings and imported resources.
 2. Go to **Desktop settings → System settings → Set up system home** to make Shittim Ark your launcher. To keep your current launcher, choose **Use live wallpaper only** in System settings.
 3. Open **Desktop settings → About this desktop → Check signed updates** to see the published version and its signature verification result.
 
 <details>
 <summary>Verify the APK</summary>
 
-The file is 378,564,281 bytes. Its SHA-256 checksum is
+The file is 380,178,624 bytes. Its SHA-256 checksum is
 
 ```text
-17890cdf4d0b431eacb1cf5304dcde79d4e98505756fbba1364fd6737a10077e
+7e55dd852e4a10b9c9df525896e6e7b503791e24a5d64f1dcbc63aafc7469356
 ```
 
 [Previous releases and resources](https://github.com/Reishisomu/ShittimArk-Public/releases)
+
+[Changes in 1.1.0.0](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.0.0) · Desktop settings actions and switches now sit directly on the academy artwork. The search field highlights its outline when focused, and you can remove several favorites at once.
 
 </details>
 

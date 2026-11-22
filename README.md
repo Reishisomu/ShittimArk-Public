@@ -4,7 +4,7 @@
 
 什亭方舟是一款由《碧蓝档案》玩家制作的 Android 桌面。把它设为默认桌面，就能在喜欢的学生身边打开常用应用。想保留现在的桌面布局，也可以单独使用动态壁纸。
 
-**[下载 Android 正式版 1.1.0.0](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.1.0.0/ShittimArk-1.1.0.0.apk)** · [官网直接下载](https://dreamheart-atelier.pages.dev/downloads/ShittimArk-1.1.0.0.apk)　·　[查看本版更新](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.0.0)　·　[访问官网](https://dreamheart-atelier.pages.dev/)
+**[下载 Android 正式版 1.1.1.0](https://github.com/Reishisomu/ShittimArk-Public/releases/download/1.1.1.0/ShittimArk-1.1.1.0.apk)** · [官网直接下载](https://dreamheart-atelier.pages.dev/downloads/ShittimArk-1.1.1.0.apk)　·　[查看本版更新](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.1.0)　·　[访问官网](https://dreamheart-atelier.pages.dev/)
 
 ![什亭之匣的夜间教室桌面。普拉娜坐在课桌旁，左边是日历，右边有时钟和便签。](assets/readme/home.jpg)
 
@@ -21,24 +21,26 @@
 
 ## 安装和更新
 
-适用于 **Android 8.0 及以上的 ARM64 手机和平板**。本次正式版为 **1.1.0.0（117）**。 正式版于 2026 年 11 月 22 日公开发布。
+适用于 **Android 8.0 及以上的 ARM64 手机和平板**。本次正式版为 **1.1.1.0（125）**。 正式版于 2026 年 11 月 22 日公开发布。
 
-桌面参数页的操作和开关直接显示在学院插画上，搜索栏聚焦时会亮起描边。收藏设置现在支持多选移除。
+灵动岛默认收起为带电量环的胶囊，也可切换成小球。点开可查看曲目、调节亮度和音量。经典与 13 个学院皮肤各有一张以官方角色立绘为参考绘制的透明同人半身像。首次从 1.1.0.0 升级时，时钟会换成「花笺手写」、关闭底板，界面文字换成「艺术字 · 糖果萌圆」。这三项只设定一次，原有时钟字号保留。
 
-1. 下载上方的 `ShittimArk-1.1.0.0.apk`，在 Android 设备上打开，按系统提示安装。已装旧版的老师直接选择更新即可，覆盖安装会保留设置和导入的资源。
+1. 下载上方的 `ShittimArk-1.1.1.0.apk`，在 Android 设备上打开，按系统提示安装。已装旧版的老师直接选择更新即可，覆盖安装会保留设置和导入的资源。
 2. 打开什亭方舟，进入「桌面设置 → 系统设置 → 设置系统桌面」，就能把它设为默认桌面。想继续用原来的桌面，请选择同页的「仅用动态壁纸」。
 3. 后续可以在「桌面设置 → 关于桌面 → 检查已签名更新」查看公开版本和发布清单签名的验证结果。正式版已移除旧预览版的使用期限。
 
 <details>
 <summary>核对安装包</summary>
 
-文件大小为 378,564,281 字节。下载文件的 SHA-256 应为
+文件大小为 380,178,624 字节。下载文件的 SHA-256 应为
 
 ```text
-17890cdf4d0b431eacb1cf5304dcde79d4e98505756fbba1364fd6737a10077e
+7e55dd852e4a10b9c9df525896e6e7b503791e24a5d64f1dcbc63aafc7469356
 ```
 
 [历史版本与资源](https://github.com/Reishisomu/ShittimArk-Public/releases)
+
+[1.1.0.0 更新回顾](https://github.com/Reishisomu/ShittimArk-Public/releases/tag/1.1.0.0) · 桌面参数页的操作和开关直接显示在学院插画上，搜索栏聚焦时会亮起描边。收藏设置现在支持多选移除。
 
 </details>
 
